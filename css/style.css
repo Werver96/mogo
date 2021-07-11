@@ -1,0 +1,937 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+	min-width: 1340px;
+	margin: 0 auto;
+
+}
+.container {}
+a {
+
+color:white;
+
+text-decoration:none
+
+}
+
+
+a:hover {
+
+color:yellow;
+
+text-decoration: underline
+
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.header {
+	background: transparent;
+	background: url(../img/Layer_15.png) 100% no-repeat;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	background-position: center;
+	color: #ffffff;
+
+
+
+}
+.header_gradient {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e78181+1,ecaf86+44,eed789+100&0.77+0,0.7+100 */
+background: -moz-linear-gradient(top,  rgba(231,129,129,0.77) 0%, rgba(231,129,129,0.77) 1%, rgba(236,175,134,0.74) 44%, rgba(238,215,137,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(231,129,129,0.77) 0%,rgba(231,129,129,0.77) 1%,rgba(236,175,134,0.74) 44%,rgba(238,215,137,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(231,129,129,0.77) 0%,rgba(231,129,129,0.77) 1%,rgba(236,175,134,0.74) 44%,rgba(238,215,137,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4e78181', endColorstr='#b3eed789',GradientType=0 ); /* IE6-9 */
+margin: -5px 0 0 0;
+}
+.header_content {
+max-width: 1200px;
+margin:0 auto;
+
+}
+.header_logo {
+	text-transform: none;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: Montserrat;
+	margin:0 0 0 12px;
+	padding: 15px 0 0 0 ;
+
+}
+.header_memu {}
+.header_menu_list {
+	margin: -20px 0 0 0;
+	color: #ffffff;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.header_menu_list ul{
+	padding: 0 27px;
+
+}
+.header_tittle {
+
+	text-align: center;
+	font-size: 72px;
+
+}
+.header_tittle_italic {
+	font-family: "Kaushan Script";
+	text-transform: none;
+	font-style: italic;
+	font-size: 72px;
+	margin: 197px 0 42px 0 ;
+}
+.header_tittle_uppercase {
+	line-height: 140px;
+	font-size: 150px;
+	font-weight: 700;
+
+}
+
+.header_line {
+text-align: center;
+margin: 50px 0 ;
+}
+.header_submit {
+	text-align: center;
+}
+.header_submit_border {
+	width: 160px;
+	height: 40px;
+	margin: 0 auto;
+	border: 3px solid #ffffff;
+
+
+}
+.header_submit_link {
+	font-size: 14px;
+	font-weight: 700;
+	padding: 10px 0;
+	text-align: center;
+}
+.header_submit {}
+.header_link {}
+.header_link_list {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	padding: 0 0 28px 0;
+	margin: 152px 0 0 0;
+	font-size: 24px;
+}
+.header_link_list ul{
+border-top: 3px solid white;
+padding: 10px 20px 0 20px;
+width: 260px;
+}
+
+.story_tittle {
+
+
+
+}
+.story_container {
+	max-width: 1200px;
+	margin:0 auto;
+	text-align: center;
+}
+.tittle_text_1 {
+	font-family: "Kaushan Script";
+	font-size: 24px;
+	margin: 91px 0 11px 0;
+	text-align: center;
+	font-style: italic;
+
+
+}
+.tittle_text_2 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 12px 0 40px 0;
+	text-align: center;
+}
+.tittle_line {
+	text-align: center;
+	margin: 20px 0;
+}
+.tittle_text_3 {
+	color: #999999;
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 27px auto 92px auto;
+	max-width: 954px;
+	text-align: center;
+}
+.story_image {
+	margin: 70px 0 110px 0;
+}
+.story_image_column {
+	display: flex;
+	max-width: 33%;
+	justify-content: center;
+	margin: 0 auto;
+}
+.story_image_column_1 {
+	margin:0 15px 0 0;
+}
+.story_image_column_2 {
+	margin:0 15px;
+}
+.story_image_column_3 {
+	margin:0 0 0 15px;
+}
+.numbers {
+
+	background: #95e1d3;
+	color: #ffffff;
+
+}
+.numbers_column {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+
+	border-right:	 1px solid white;
+}
+.number_column_number {
+	font-weight: 700;
+	font-size: 72px;
+	text-align: center;
+	margin:0 0 15px 0;}
+
+.number_column_text {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.numbers_column_1 {}
+.numbers_column_2 {}
+.numbers_column_3 {}
+.numbers_column_4 {}
+.numbers_column_5 {}
+.border_column {
+	padding: 60px 0;
+	width: 20%;
+	text-align: center;
+	border-left: 1px solid white;
+}
+.work {
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.work_tittle {}
+.work_tittle_text_1 {
+	font-family: "Kaushan Script";
+	font-size: 24px;
+	font-weight: 400;
+	margin: 109px 0 11px 0;
+}
+.work_tittle_text_2 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 11px 0 21px 0;
+}
+.work_line {
+	margin: 11px 0 11px 0;
+}
+.work_info {
+	margin: 20px 0 120px 0;
+
+	text-align: left;
+}
+.work_info_grid {
+
+}
+.grid_body {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50%;
+
+
+}
+.grid_item {
+
+
+}
+
+.grid_item__tittle {
+	text-transform: uppercase;
+	padding: 0 0 0 90px;
+
+
+}
+.grid_item_1:before{
+	content:url(../img/Photography.svg);
+	position: relative;
+	top:35px;
+	left: 30px;
+
+}
+.grid_item_2:before{
+	content:url(../img/Web_Design.svg);
+	position: relative;
+	top:35px;
+	left: 30px;
+}
+.grid_item_3:before{
+	content:url(../img/Creativity.svg);
+	position: relative;
+	top:35px;
+	left: 30px;
+}
+.grid_item_4:before{
+	content:url(../img/seo.svg);
+	position: relative;
+	top:35px;
+	left: 30px;
+}
+.grid_item_5:before{
+	content:url(../img/Css/Html.svg);
+	position: relative;
+	top:35px;
+	left: 30px;
+}
+.grid_item_6:before{
+	content:url(../img/digital.svg);
+	position: relative;
+	top:35px;
+	left: 30px;
+}
+
+.grid_item__text {
+	text-transform: uppercase;
+	font-family: Roboto;
+	color: #999999;
+}
+.text_span {	font-family: Roboto;
+	color: #999999;
+	font-size: 15px;
+	text-transform: none;
+	line-height: 24px;
+
+
+}
+.grid_item_1{
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 0 50px 0;
+}
+.grid_item_2{
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 0 50px 0;
+}
+.grid_item_3{
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 0 50px 0;
+}
+.device {
+	background: url(../img/devise_fons.png) center/auto 100% no-repeat ;
+}
+
+.devise_gradient {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.81+1,0.79+100 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.81) 0%, rgba(255,255,255,0.81) 1%, rgba(255,255,255,0.79) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 1%,rgba(255,255,255,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 1%,rgba(255,255,255,0.79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#c9ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.devise_container {
+	max-width: 1200px;
+	margin:0 auto;
+	text-align: center;
+ 	max-height:850px ;
+ 	padding: 1px 0 0 0;
+
+
+
+}
+.devise_tittle_text_1 {
+padding: 90px 0 0 0;
+	font-size: 24px;
+
+}
+.devise_line {
+	margin: 27px 0 45px 0;
+}
+.devise_image{
+
+}
+.devise_image1 {
+width:477px;
+margin: 0 auto;
+position: relative;
+right:25px;
+top:26px;
+overflow: hidden;
+height: 567px;
+}
+.devise_image2 {
+	max-height: 440px;
+	position: relative;
+	top: -355px;
+	left:235px;
+}
+.servise {}
+.servise_container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.servise_contant {
+	text-align: center;
+	margin: 0 0 120px 0;
+}
+.tittle {}
+.tittle__elem1 {
+	margin: 112px 0 11px;
+}
+.tittle__elem_italic {
+	font-size: 24px;
+	font-family: "Kaushan Script";
+	color: #333333;
+
+}
+.tittle__elem2 {
+	margin: 12px 0 21px 0;
+}
+.tittle__elem_uppercase {
+	color: #333333;
+	font-family: Montserrat;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.tittle__elem3 {
+	margin: 21px 0 23px 0;
+}
+.tittle__elem_line {}
+.tittle__elem4 {
+	max-width: 954px;
+	margin: 23px auto 46px;
+
+}
+.tittle__elem_text {
+	color: #999999;
+	font-family: Roboto;
+	font-size: 15px;
+	line-height: 24px;
+
+}
+
+.collage {
+	display: flex;
+}
+.collage__image {
+	margin: 5px 15px 0 0;
+}
+.collage__image_img {}
+.collage__menu {
+	text-align: left;
+	margin: 0 0 0 15px;
+}
+
+.collage__tittle {
+
+width: 600px;
+display: flex;
+
+}
+
+
+
+.collage__row1 {
+	margin: 5px 0 5px 0;
+	border: 1px solid #e5e5e5;
+}
+
+.collage__row2 {
+	margin: 5px 0 5px 0;
+	border: 1px solid #e5e5e5;
+}
+.collage__row3 {
+	margin: 5px 0 5px 0;
+	border: 1px solid #e5e5e5;
+}
+
+
+.collage__icon-1:before{
+content: url(../img/Photography-story.svg);
+position: relative;
+top:15px;
+left: 15px;
+}
+.collage__icon-2:before{
+content: url(../img/creativity_storry.svg);
+position: relative;
+top:15px;
+left: 15px;
+}
+.collage__icon-3:before{
+content: url(../img/web_design__storry.svg);
+position: relative;
+top:15px;
+left: 15px;
+}
+
+.collage__icon-2 {}
+.collage__icon-3 {}
+
+.collage__tittle-1 {
+	padding: 25px 55px 25px 30px;
+	text-transform: uppercase;
+
+
+}
+.collage__tittle-2 {
+	padding: 25px 55px 25px 31px;
+	text-transform: uppercase;
+}
+.collage__tittle-3 {
+	padding: 25px 55px 25px 28px;
+	text-transform: uppercase;
+}
+.collage__text-1 {
+	padding: 20px 55px 20px 20px;
+	border-top: 1px solid #e5e5e5;
+	color: #999999;
+	font-size: 15px;
+	line-height: 24px;
+	font-style: italic;
+	height: 172px;
+	overflow: auto;
+}
+.collage__text-2 {
+	padding: 20px 55px 20px 20px;
+	display: none;
+	border-top: 1px solid #e5e5e5;
+}
+.collage__text-3 {
+	padding: 20px 55px 20px 20px;
+	display: none;
+	border-top: 1px solid #e5e5e5;
+}
+.comment1 {
+	background: #f8f8f8;
+}
+.comment1_container {
+	max-width: 1152px;
+	margin: 0 auto;
+}
+.comment1_content {
+	display: flex;
+	padding: 70px 0;
+}
+.comment__left {
+	margin: auto 0;
+
+}
+.comment__icon {
+	margin: 0 30px 0 75px;
+}
+.comment__text {
+		margin: auto 75px auto 30px;
+
+}
+.commetn__italic {
+	color: #999999;
+	font-size: 24px;
+	line-height: 36px;
+	font-style: italic;
+}
+.comment__autor {
+	font-family: "Kaushan Script";
+	margin: 23px 0 0 10px;
+	color: #333333;
+	font-size: 24px;
+}
+.comment__autor:before{
+content: url(../img/work_line.png);
+position: relative;
+top:-8px;
+right: 10px;
+}
+.comment__right {
+	margin: auto 0;
+}
+.team {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.team_container {}
+.team_contant {
+		margin: 0 0 117px 0;
+}
+.team_tittle {
+margin: 0 auto;
+text-align: center;
+}
+.tittle_text_1 {}
+.tittle_text_2 {}
+.tittle_line {}
+.tittle_text {}
+
+.team_photo {
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+
+}
+
+.team_photo_1 {
+	margin: 0 15px 0 0;
+}
+.team_photo_2 {
+	margin: 0 15px 0 15px;
+}
+
+.team_photo_3 {
+	margin: 0 0 0 15px;
+}
+
+.team_photo_img {}
+.team_photo_name {
+	margin: 30px 0 15px 0;
+	color: #333333;
+	font-size: 14px;
+	text-transform: uppercase;
+
+}
+.team_photo_post {
+	font-family: "Roboto - Light Italic";
+	color: #999999;
+	font-style: italic;
+
+}
+.team_photo_2 {}
+.team_photo_3 {}
+
+.partner {}
+.partner_container {
+	background: #f8f8f8;
+}
+.partner_content {
+	max-width: 1212px;
+	margin: 0 auto;
+}
+.partner_img {
+	padding: 50px 0;
+}
+
+.gallery {
+	max-width: 1920px;
+	margin: 0 auto;
+
+}
+.gallery_tittle {}
+.tittle_text_1 {}
+.tittle_text_2 {}
+.tittle_line {}
+.tittle_text_3 {}
+.gallery_photo {
+
+	overflow: hidden;
+
+}
+.gallery_grid {}
+.gallery_grid_body {
+	display: grid;
+	grid-template-columns:480px 480px 480px 480px;
+	grid-template-rows: 390px 390px;
+	margin: 0 0 100px 0;
+
+
+}
+.gallery_grid_item_1 {
+
+}
+.gallery_grid_item_2 {}
+.gallery_grid_item_3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+
+}
+.gallery_grid_item_4 {}
+.gallery_grid_item_5 {}
+.gallery_grid_item_6 {}
+.gallery_grid_item_7 {}
+.gallery_grid_item_8 {}
+.comment2__icon {
+	margin: 0 30px 0 45px;
+}
+
+.client_container {
+	background: url(../img/client_phone.png) no-repeat;
+	background-position: center;
+}
+.client_content {
+padding: 1px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.81+1,0.79+100 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.81) 0%, rgba(255,255,255,0.81) 1%, rgba(255,255,255,0.79) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 1%,rgba(255,255,255,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 1%,rgba(255,255,255,0.79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#c9ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.client_tittle {
+
+}
+
+.client_body {
+	max-width: 1200px;
+	margin: 86px auto 130px auto;
+}
+.client_elem {
+	display: flex;
+}
+.client_block {}
+.client_info {
+	display: flex;
+	padding: 40px;
+}
+.client_img {
+	margin: 0 30px 0 0 ;
+}
+.client_text {}
+.client_name {
+	text-transform: uppercase;
+	color: #333333;
+}
+.client_post {
+	font-family: "Roboto - Light Italic";
+	color: #333333;
+	line-height: 24px;
+	font-style: italic;
+}
+.client_line {
+	margin: 17px 0;
+}
+.client_desc {
+	color: #999999;
+	line-height: 24px;
+	font-size: 15px;
+	font-family: Roboto;
+}
+.blog {}
+.blog_container {}
+.blog_content {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.blog_tittle {}
+.tittle_text_1 {}
+.tittle_text_2 {}
+.tittle_line {}
+.blog_img {
+	display: flex;
+	margin: 0 0 110px 0;
+}
+.blog_elem {
+	max-width: 33%;
+	margin: 10px;
+}
+.blog_photo {}
+.blog_subtittle {
+	margin: 20px 10px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.blog_text {
+	color: #999999;
+	font-size: 15px;
+	font-family: Roboto;
+	line-height: 24px;
+	margin: 0 0 20px 10px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 30px 20px 0;
+
+}
+.blog_icon {
+	margin: 0 0 0 10px;
+}
+
+.map {}
+.map_container {
+	background: url(../img/map.png);
+
+}
+.map_content {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.81+1,0.79+100 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.81) 0%, rgba(255,255,255,0.81) 1%, rgba(255,255,255,0.79) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 1%,rgba(255,255,255,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 1%,rgba(255,255,255,0.79) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#c9ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.map {}
+.map_container {}
+.map_content {}
+.map_img {}
+.map_icon {
+	padding: 57px 0;
+text-align: center;
+}
+
+
+.footer {}
+.footer_container {}
+.footer_content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.footer_block {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	margin: 74px 0 0px 0;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 0 70px 0;
+}
+.footer_mogo {
+	max-width: 40%;
+}
+.footer_tittle {
+	color: #cccccc;
+	font-size: 46px;
+	font-weight: 700;
+	margin: 0 0 21px 0;
+}
+.footer_text {
+	color: #999999;
+	line-height: 24px;
+	font-family: Roboto;
+	margin: 21px 0 40px 0;
+
+}
+.footer_subimg {
+	margin: 24px 0 18px 0;
+
+}
+.footer_icon {
+	border-top: 1px solid #e5e5e5;
+	padding: 16px 0 0 0 ;
+}
+.footer_input-field {
+margin: 38px 0 0 0;
+}
+
+.footer_input {}
+.footer_input_text {
+	border: 1px solid #e7e7e7;
+	width: 230px;
+	height: 40px;
+	padding: 0 0 0 20px;
+	font-style: italic;
+}
+.footer_submit {
+	background-color: #95e1d3;
+	color: #ffffff;
+	width: 150px;
+	height: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: Montserrat;
+}
+.footer_blogs {
+	max-width: 28%;
+
+}
+.footer_subtitle {
+	text-transform: uppercase;
+	color: #333333;
+	font-family: "Montserrat";
+	margin: 0 0 40px 0;
+}
+.footer_row {
+	display: flex;
+	margin: 20px 0 30px 0;
+}
+.footer_blogs_img {}
+.footer_blogs_text {
+	font-size: 12px;
+	color: #333333;
+	margin: 10px 0 7px  20px;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+.footer_blogs_date {
+	color: #999999;
+	font-size: 13px;
+	font-style: italic;
+	text-transform: none;
+}
+.footer_instagram {
+	max-width: 23%;
+
+}
+.footer_instagram_img {
+	max-width: 268px;
+	max-height: 268px;
+}
+.footer_instagram_text {
+	margin: 20px 0 0 0;
+	color: #333333;
+	font-size: 13px;
+	font-family: "Roboto - Light Italic";
+	font-style: italic;
+}
+
+.last {
+	max-width: 1200px;
+
+	margin: 0 auto;
+}
+.last_text {
+	text-align: center;
+	padding: 22px 0;
+
+}
